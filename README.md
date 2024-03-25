@@ -1,4 +1,8 @@
-# Personal Portfolio Website
+# Personal Portfolio Website 
+## Demo
+
+You can view a live demo of the calculator [here](http://preyashmehta.netlify.app).
+
 
 Welcome to my personal portfolio website! This React application showcases my skills, experiences, and projects as a full-stack developer.
 
