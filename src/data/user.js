@@ -2,7 +2,7 @@ const INFO = {
 	main: {
 		title: "Portfolio",
 		name: "Preyash Amar Mehta",
-		email: "mehta.prey@northeastern.edu",
+		email: "preyash.ja@gmail.com",
 		logo: "../logo.png",
 	},
 
@@ -27,6 +27,30 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Cloud Native User Onboarding Web App",
+			description:
+				"Implemented a complete infrastructure on AWS using Terraform to create a VPC stack, including essential services such as S3, RDS, and SNS, with SES integration through a Lambda function for seamless user verification during signup. Additionally, I established a GitHub Actions CI/CD pipeline for automated testing and building of a custom AMI via Packer, which is deployed on an EC2 instance and managed within an Auto Scaling Group. To ensure robust monitoring and quick issue resolution, I configured CloudWatch alarms to automate responses, significantly improving the mean time to resolution (MTTR).",
+			logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSakNA2hyn3l8JnCqjYEB6ufwFCTD4VKsm5VA&usqp=CAU",
+			linkText: "View Project",
+			link: "https://github.com/Preyash-NEU/tf-aws-infra",
+		},
+		{
+			title: "Attendance App - .NET development",
+			description:
+				"Developed a full-stack College Attendance App, utilizing VB.NET and Microsoft SQL Server to manage attendance for educational institutions efficiently. This desktop application boasts a robust user authentication system to ensure secure access for administrators and faculty, coupled with a well-optimized SQL database schema for swift data retrieval and storage. A significant feature of this app is the real-time attendance tracking and analytics capability, which not only streamlines daily operations but also supports comprehensive long-term reporting and analysis.",
+			logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSakNA2hyn3l8JnCqjYEB6ufwFCTD4VKsm5VA&usqp=CAU",
+			linkText: "View Project",
+			link: "https://github.com/Preyash-NEU/CollegeAttendanceApp",
+		},
+		{
+			title: "Home Automation System",
+			description:
+				"Built a robust and scalable Java-based system for smart device management using multiple design patterns, including Adapter, Bridge, Builder, and Command. The architecture emphasized clean, modular code adhering to principles like the Open/Closed Principle and Dependency Inversion, ensuring flexibility and extensibility. The implementation of key patterns such as State and Observer effectively managed device behavior and facilitated real-time notifications, significantly enhancing system responsiveness and efficiency",
+			logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSakNA2hyn3l8JnCqjYEB6ufwFCTD4VKsm5VA&usqp=CAU",
+			linkText: "View Project",
+			link: "https://github.com/Preyash-NEU/HomeAutomationSytem",
+		},
+		{
 			title: "Event-Management Application",
 			description:
 				"Developed a custom Event Management Web App for university students using MERN stack & Tailwind CSS, enabling seamless event planning and networking. Implemented ReactJS-based front-end for Husky Events with React Router & Hooks, and handled server-side communication via Axios. Ensured security with user authentication, JWT, and a well-structured REST API in Express, ensuring data integrity in MongoDB with bcrypt hashing and CORS.",
@@ -49,13 +73,6 @@ const INFO = {
 			description:
 				"Researched Support Vector Machine, achieving 92% accuracy in handwriting pattern classification, published in IEEE. Presented findings at academic conferences, exploring applications in forensic handwriting analysis, education, and healthcare. Additionally, investigated the effectiveness of Convolutional Neural Networks (CNN) and Recurrent Neural Networks (RNN) in similar tasks.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/python/python.png",
-		},
-
-		{
-			title: "Music Player Application using Android Studio",
-			description:
-				"Developed an 'MX player' app with Kotlin/XML Interface, capable of downloading and storing 10 songs. Created a music player from scratch in Android Studio with shuffle and repeat features, garnering 100% positive user feedback. Reduced backend processing time by 75% with a Java-coded efficient interface, and minimized app crashes by 90% through robust error handling mechanisms.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/kotlin/kotlin.png",
 		},
 	],
 };

@@ -15,6 +15,18 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
+								src="./Formless.png"
+								alt="facebook"
+								className="work-image"
+							/>
+							<div className="work-title">Formless Inc</div>
+							<div className="work-subtitle">
+								Software Engineering Intern
+							</div>
+							<div className="work-duration">June 2024 - October 2024</div>
+						</div>
+						<div className="work">
+							<img
 								src="./Atos.png"
 								alt="facebook"
 								className="work-image"
