@@ -37,19 +37,6 @@ const Works = () => {
 							</div>
 							<div className="work-duration">March 2021 - June 2023</div>
 						</div>
-
-						<div className="work">
-							<img
-								src="./Scrobits.jpg"
-								alt="twitter"
-								className="work-image"
-							/>
-							<div className="work-title">Scrobits Technologies </div>
-							<div className="work-subtitle">
-								Full Stack Developer Intern
-							</div>
-							<div className="work-duration">January 2020 - May 2020</div>
-						</div>
 					</div>
 				}
 			/>
