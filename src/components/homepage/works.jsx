@@ -33,7 +33,7 @@ const Works = () => {
 							/>
 							<div className="work-title">Atos</div>
 							<div className="work-subtitle">
-								Associate Software Developer
+								Associate Consultant - GCM 2
 							</div>
 							<div className="work-duration">March 2021 - June 2023</div>
 						</div>
